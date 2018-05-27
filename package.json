@@ -1,0 +1,23 @@
+{
+  "name": "api-aggregator",
+  "version": "1.0.0",
+  "description": "API aggregator using graphql and nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sowani/api-aggregator.git"
+  },
+  "keywords": [],
+  "author": "Atul Sowani",
+  "license": "APL",
+  "bugs": {
+    "url": "https://github.com/sowani/api-aggregator/issues"
+  },
+  "homepage": "https://github.com/sowani/api-aggregator#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.14.5"
+  }
+}
