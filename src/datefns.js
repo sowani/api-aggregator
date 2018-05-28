@@ -1,3 +1,5 @@
 exports.getIsoDate = function() {
-  return Date();
+  var d = new Date();
+  var isoDate = d.getFullYear() + '-' + (d.getMonth()+1) + '-' + d.getDate();
+  return isoDate;
 }
